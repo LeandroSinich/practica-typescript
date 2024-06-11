@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+body{
+    background: linear-gradient(to left, rgb(228, 230, 233),rgb(211, 235, 127));
+}
+.titulo{
+    padding: 10px;
+    text-align: center;
+}
+.active{
+    background-color: black;
+    color: aliceblue;
+}
+.container ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+.container ul li{
+    padding: 8px;
+    cursor: pointer;
+}
+.container ul li:hover:not(.active){
+    background-color: gray;
+}
+.container{
+   background-color: brown;
+    margin: 0;
+}
